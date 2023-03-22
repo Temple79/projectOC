@@ -32,7 +32,7 @@ p {
     font-weight:normal;
     text-indent: 0.5cm;
     padding-left: 90px;
-    width: 1700px;
+    width:fit-content;
 }
 #bolded {
     font-style: italic;
