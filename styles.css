@@ -7,6 +7,29 @@ h1 {
     text-decoration:solid;
     text-align: center;
 }
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: pink;
+    padding-left: 90px;
+    padding-right: 70px;
+}
+li {
+    float: left;
+    display: block;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: larger;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    text-decoration:none;
+}
 h2 {
     color:palevioletred;
     background-color: whitesmoke;
@@ -43,3 +66,10 @@ p {
     display: inline-block;
     padding-left: 320px;
 } 
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding: 10px;
+}
